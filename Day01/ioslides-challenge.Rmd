@@ -1,0 +1,44 @@
+---
+title: "IOSlides presentation"
+output: ioslides_presentation
+---
+
+# RaukR 2019 | IOSlides challenge
+
+## R Markdown
+
+- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+- When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## R Markdown on click
+
+- This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+>- When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## Cars
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+- You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## Including images
+![This is Gotland](gotland.jpg)
+
+---
+![This is Gotland](gotland.jpg)
+
+## Session Info
+```{r session info, echo=FALSE}
+sessionInfo()
+```
+
+# Thanks
